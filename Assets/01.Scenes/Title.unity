@@ -768,7 +768,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Escape Apocalyps
+  m_text: 'Escape Apocalypse
 
 '
   m_isRightToLeft: 0

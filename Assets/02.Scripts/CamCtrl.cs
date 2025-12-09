@@ -22,8 +22,6 @@ public class CamCtrl : MonoBehaviour
         Vector3 dir = Vector3.back * distance;
         float angle = camAngle.x;
         tarPos = playerTr.position + (Vector3.up*10) + Quaternion.AngleAxis(angle, Vector3.right) * dir;
-
-        //Debug.DrawLine(playerTr.position, tarPos, Color.red); 	// 플레이어의 전방 벡터 그리기
     }
 
     void ControlDistance()
